@@ -1,3 +1,3 @@
 # Wiki
 
-WORK IN PROGRESS
+Template Wiki made with *React + Vite*.
