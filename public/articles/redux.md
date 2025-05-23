@@ -1,9 +1,3 @@
-
----
-
-### 📄 `redux.md`
-
-```md
 # Redux
 
 Redux is a **state management** library often used with React.
