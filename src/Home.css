@@ -1,35 +1,51 @@
 @import "tailwindcss";
+/* Layout */
 .home-container {
-  padding: 2rem;
   max-width: 1000px;
   margin: 0 auto;
-  background-color: #f8f9fa;
-  min-height: 100vh;
+  padding: 2rem;
 }
 
+/* Title */
 .home-title {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
   margin-bottom: 2rem;
+  color: #1f2937; /* slate-800 */
 }
 
+/* Grid */
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1.5rem;
 }
 
+/* Card */
 .article-card {
-  background: #fff;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   text-decoration: none;
-  color: #222;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: inherit;
 }
 
 .article-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Text */
+.article-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #111827; /* slate-900 */
+}
+
+.article-card p {
+  color: #4b5563; /* slate-600 */
+  font-size: 0.95rem;
 }
