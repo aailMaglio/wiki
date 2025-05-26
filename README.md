@@ -1,3 +1,3 @@
 # Wiki
 
-Template Wiki made with *React + Vite*.
+Template Wiki made with *React + Vite* styling made with *Tailwind*.
