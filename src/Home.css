@@ -1,28 +1,27 @@
 @import "tailwindcss";
-/* Layout */
+
 .home-container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-/* Title */
 .home-title {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 2rem;
-  color: #1f2937; /* slate-800 */
+  color: #1f2937; 
 }
 
-/* Grid */
+
 .article-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1.5rem;
 }
 
-/* Card */
+
 .article-card {
   background: white;
   padding: 1.5rem;
@@ -38,14 +37,26 @@
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Card Text */
+
 .article-card h2 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
-  color: #111827; /* slate-900 */
+  color: #111827; 
 }
 
 .article-card p {
-  color: #4b5563; /* slate-600 */
+  color: #4b5563; 
   font-size: 0.95rem;
+}
+
+button {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  box-shadow: 0 0 15px rgb(0 0 0 / 0.4);
+  outline: none;
 }
