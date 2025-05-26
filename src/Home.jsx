@@ -7,7 +7,7 @@ import ThemeToggle from './components/ThemeToggle';
 const Home = () => (
   <div
     id="root"
-    className="home-root bg-gradient-to-r from-purple-500 via-indigo-600 to-blue-500 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
+    className="max-w-4xl mx-auto p-8 home-root bg-gradient-to-r from-purple-500 via-indigo-600 to-blue-500 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
   >
     <div
       className="home-container min-h-screen bg-gradient-to-r from-purple-600 via-indigo-700 to-blue-500

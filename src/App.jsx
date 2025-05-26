@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setTheme } from "./redux/slices/GlobalSlice";
 import Home from "./Home";
 import ArticleDetail from "./ArticleDetail";
+import "./index.css"; 
 
 const App = () => {
   const dispatch = useDispatch();
