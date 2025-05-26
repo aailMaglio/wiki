@@ -9,13 +9,11 @@ const App = () => {
   const dispatch = useDispatch();
   const theme = useSelector((state) => state.global.theme);
 
-  // Load saved theme on first load
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") || "light";
     dispatch(setTheme(savedTheme));
   }, [dispatch]);
 
-  // Apply theme class to <html> element
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
