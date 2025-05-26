@@ -13,7 +13,7 @@ const App = () => {
     const savedTheme = localStorage.getItem("theme") || "light";
     dispatch(setTheme(savedTheme));
   }, [dispatch]);
-
+console.log(theme);
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
