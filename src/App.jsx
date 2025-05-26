@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { setTheme } from "./redux/slices/GlobalSlice"; // <-- Make sure this is exported
+import { setTheme } from "./redux/slices/GlobalSlice";
 import Home from "./Home";
 import ArticleDetail from "./ArticleDetail";
 
