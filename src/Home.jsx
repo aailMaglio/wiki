@@ -7,11 +7,10 @@ import ThemeToggle from './components/ThemeToggle';
 const Home = () => (
   <div
     id="root"
-    className="max-w-4xl mx-auto p-8 home-root bg-gradient-to-r from-purple-500 via-indigo-600 to-blue-500 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
+    className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-500 via-indigo-600 to-blue-500 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
   >
     <div
-      className="home-container min-h-screen bg-gradient-to-r from-purple-600 via-indigo-700 to-blue-500
-                 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-8"
+      className="w-full max-w-3xl mt-12 p-8 border-4 border-white/30 dark:border-gray-700 rounded-2xl bg-white/80 dark:bg-gray-900/80 shadow-xl"
     >
       <h1 className="home-title text-white dark:text-white">Wiki Articles</h1>
 

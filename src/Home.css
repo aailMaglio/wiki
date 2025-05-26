@@ -24,13 +24,11 @@ html, body, #root {
 
 
 .article-card {
-  background: white;
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   transition: transform 0.2s, box-shadow 0.2s;
-  color: inherit;
 }
 
 .article-card:hover {
@@ -42,11 +40,9 @@ html, body, #root {
 .article-card h2 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
-  color: #111827; 
 }
 
 .article-card p {
-  color: #4b5563; 
   font-size: 0.95rem;
 }
 
